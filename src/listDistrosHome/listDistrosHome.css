@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainListDistrosHome{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 60px;
+    box-sizing: border-box;
+    gap: 20px;
+    background: #CFE0F9;
+
+}
+
+.listDistrosHome{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: left;
+}
+
+.listDistrosHome > h1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: #1338BE;
+}
+
+.listDistrosHome > h1::before{
+    content: "";
+    width: 190px;
+    height: 3px;
+    background: #1338BE;
+    position: absolute;
+    bottom: 0;
+}
+
+.listDistrosCards{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns:  
+    repeat(
+        auto-fit, 
+        minmax(300px, 1fr)
+    );
+    gap: 20px; */
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.listDistrosMoreBtn > button{
+    width: 150px;
+    height: 40px;
+    outline: none;
+    border-style: none;
+    background: #1338BE;
+    color: #CFE0F9;
+    font-weight: 600;
+    font-size: 1.2em;
+    border-radius: 20px;
+    margin-top: 10px;
+    user-select: none;
+}
+
+@media (max-width: 768px){
+    .listDistrosHome{
+        height: auto;
+    }
+
+    
+
+    .mainListDistrosHome{
+        flex-direction: column;
+    }
+
+    .listDistrosCards{
+        justify-content: space-around;
+    }
+
+    .listDistrosHome > h1::before{
+        content: "";
+        opacity: 0;
+    }
+}
