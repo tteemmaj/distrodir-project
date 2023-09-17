@@ -1,9 +1,10 @@
 import React from 'react'
+import Syles from '../all-distros/AllDistros.css'
 
 function AllDistros() {
   return (
-    <div>
-      <h1>AllDistrosPage</h1>
+    <div className='title-allDistros'>
+      <h1>TODAS LAS DISTROS</h1>
     </div>
   )
 }

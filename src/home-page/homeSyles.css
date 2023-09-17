@@ -38,7 +38,7 @@
     font-size: 1.2em;
 }
 
-.homeLeftCont > button{
+#home-page-allBtn{
     width: 150px;
     height: 50px;
     align-self: center;

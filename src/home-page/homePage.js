@@ -11,7 +11,7 @@ function homePage () {
                 <p>
                     En nuestra página, encotnrarás una amplia selección de distribuciones de Linux listas para descargar, todas reunidas en un solo lugar conveniente. Si eres un apasionado de Linux, un entusiasta de la informática o simplemente alguien que quiere explorar el emocionante mundo del software de código abierto, ¡has llegado al sitio adecuado!
                 </p>
-                <Link to='/all-distros'>  <button>Ver todo</button> </Link>
+                <Link to="/all-distros" ><button id='home-page-allBtn'>Ver todo</button></Link>
             </div>
             <div className='homeRightCont'>
                 <img src={Image0} />

@@ -15,7 +15,7 @@ function ListDistrosHome (props) {
                         arquitectura='X86 - X64'
                         escritorio='XFCE, lxde'
                         peso='1.9GB'
-                        link='https://bard.google.com/'
+                        link='/mx-linux'
                     />
                     <Card
                         image='endeavouros' 

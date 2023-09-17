@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './cardstyle.css';
+import { Link } from 'react-router-dom';
 
 function card (props) {
     return(
@@ -12,7 +13,7 @@ function card (props) {
             <p> <strong> Arquitectura: </strong> {props.arquitectura} </p>
             <p> <strong> Escritorio: </strong> {props.escritorio} </p>
             <p> <strong> Peso: </strong> {props.peso} </p>
-            <div className='moreBtn'><a href={props.link}  target='_blank'> <p> Más información </p></a> </div>
+            <div className='moreBtn'><Link to={props.link} > <p> Más información </p></Link> </div>
         </div>
     );
 };

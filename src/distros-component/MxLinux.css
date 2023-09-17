@@ -1,0 +1,57 @@
+
+.mxlinuxtitle{
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/titles-background.png);
+  background-size: cover;
+  padding: 0 60px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.mxlinuxtitle > h1{
+  color: aliceblue;
+}
+
+.dwnd-card-title{
+  width: 400px;
+  height: 200px;
+  border-radius: 20px;
+  background: #F6F6F6;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  box-sizing: border-box;
+  gap: 10px;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
+}
+
+.dwnd-card-title > h1{
+  color: #1E1E1E;
+
+}
+.mxlinux-downloads-container{
+  width: 100%;
+  height: 600px;
+  background: #CFE0F9;
+  padding: 0 60px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+
+}
+
+.download-link{
+  width: 100;
+  height: 60px;
+  background: #1743E4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.download-link > a{
+  text-decoration: none;
+  color: #CFE0F9;
+}
